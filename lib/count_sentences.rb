@@ -34,6 +34,5 @@ class String
     sentences_arr.delete_if? {|sentence|sentence.empty?}
     sentences_arr.length
   end
-end
 
 end

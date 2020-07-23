@@ -31,7 +31,7 @@ class String
 
   def count_sentences
     new_array = []
-    self.split(".?!")
+    self.split(.?!")
     self.each do |sentence|
       sentence.count 
     end

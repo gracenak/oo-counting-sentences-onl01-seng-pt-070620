@@ -30,12 +30,9 @@ class String
   end
 
   def count_sentences
-    sentences_str = []
     sentences_arr = self.split(/[.?!]/)
     sentences_arr.delete_if? {|sentence|sentence.empty?|}
-    self.each do |sentence|
-      sentence.count 
-    end
+    
     self.split("")
   end
 end

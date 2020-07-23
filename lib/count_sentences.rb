@@ -31,7 +31,7 @@ class String
 
   def count_sentences
     sentences_str = []
-    self.split(/[.?!]/)
+    sentences_arr = self.split(/[.?!]/)
     self.each do |sentence|
       sentence.count 
     end

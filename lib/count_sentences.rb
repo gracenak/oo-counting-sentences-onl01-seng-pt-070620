@@ -36,5 +36,5 @@ class String
       self.split("")
     end
 
-  end
+  end.flatten.compact
 end

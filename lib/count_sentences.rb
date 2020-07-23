@@ -30,11 +30,9 @@ class String
   end
 
   def count_sentences
-    if self.count == 0
-      return 0
-    else 
-      self.count.split("")
+    self.each do |sentence|
+      sentence.count 
     end
-
+    self.split("")
   end
 end

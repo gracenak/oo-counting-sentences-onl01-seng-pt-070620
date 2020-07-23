@@ -33,7 +33,7 @@ class String
     if self.count == 0
       return 0
     else 
-      self.split("")
+      self.count.split("")
     end
 
   end

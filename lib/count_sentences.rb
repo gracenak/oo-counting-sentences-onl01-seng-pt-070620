@@ -35,3 +35,5 @@ class String
     sentences_arr.length
   end
 end
+
+end
